@@ -5,7 +5,7 @@ output "app_url" {
 
 output "namespace" {
   description = "Namespace created for this app"
-  value       = volterra_namespace.ns.name
+  value       = local.default_namespace
 }
 
 output "main_vsite" {
@@ -22,4 +22,3 @@ output "kubecfg" {
   description = "kubeconfig file"
   value       = local_file.kubeconfig
 }
-

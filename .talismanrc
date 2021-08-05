@@ -1,0 +1,13 @@
+fileignoreconfig:
+- filename: .devcontainer/scripts/awscli2-debian.sh
+  checksum: a4c9c8f86cb954496eccf8cc89f9186229b4e0dccca57b3c44021973cdd09e1c
+- filename: .devcontainer/scripts/gcloud-debian.sh
+  checksum: f6435a020a039c63428853691e911b2e559ed2ed3423b1f6edfda926aa270aa9
+- filename: .devcontainer/scripts/azcli-debian.sh
+  checksum: e783074cc0c0cbb11a3914d811f5aa6527f423ce7d2bf9957daa17da02defed6
+- filename: .devcontainer/scripts/docker-debian.sh
+  checksum: 3109be3be53c3dad4a7cfcd0c07c87cd41ab26cc24e1fd4110fe69ecb955ae9a
+- filename: README.md
+  checksum: f96506bc6cf5c3a23ae4eca5f35c774169707665793bc61a8f8c7dc1837ac202
+- filename: terraform/modules/kubectl/main.tf
+  checksum: 82ffe93ba30a3607fda054ef08391e2db9262fedc53655dfe94f23499b3764a1

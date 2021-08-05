@@ -3,7 +3,7 @@ USER root
 
 RUN apk -U upgrade && \
     apk --no-cache add tor privoxy curl && \
-    rm -rf /var/cache/apk/* 
+    rm -rf /var/cache/apk/*
 
 ENV HTTP_PROXY=http://localhost:8118 HTTPS_PROXY=http://localhost:8118
 
